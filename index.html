@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+
+
+</head>
+
+<body>
+  <div id="titleBox">
+    <h1><i class="fa fa-cloud" aria-hidden="true"></i>  &nbsp;Weather Investigator &nbsp; <i class="fa fa-cloud" aria-hidden="true"></i></h1>
+  </div>
+  <div id="presBox">
+    
+    <div id="locaBox">
+      
+      <span id="city">City</span>,
+      <span id="region">Region</span>
+      
+    </div>
+    
+    <div id="weatherBox">
+      <div id="dateBox">
+      </div>
+      <div id="tempBox">
+        <button type="button" id="tempNum">90 °F</button>
+      </div>
+      <form>
+        <input type="radio" name="fOrC" value="F" checked="checked"><label for="F"> &deg;F</label>
+        <input type="radio" name="fOrC" value="C"><label for="C"> &deg;C</label>
+      </form>
+      <div id="weatherIcon">
+    </div>
+      <div id="weatherStatus">Cloudy</div>
+      
+    </div>
+  </div>
+  
+  <div id="forecast">
+    <div class="forecastDay" id="day1">
+      <div id="weekDay1"></div>
+      <div id ="date1"></div>
+      <div id="temps1"></div>
+      <div class ="fClassIcon" id="fcastIcon1"></div>
+      <div id="fcastCond1"></div>
+      <div id="precipPer1"></div>
+    </div>
+    <div class="forecastDay" id="day2">
+      <div id="weekDay2"></div>
+      <div id="date2"></div>
+      <div id="temps2"></div>
+      <div class="fClassIcon" id="fcastIcon2">[Icon]</div>
+      <div id="fcastCond2"></div>
+      <div id="precipPer2"></div>
+    </div>
+    <div class="forecastDay" id="day3">
+      <div id="weekDay3"></div>
+      <div id="date3"></div>
+      <div id="temps3"></div>
+      <div class="fClassIcon" id="fcastIcon3">[Icon]</div>
+      <div id="fcastCond3"></div>
+      <div id="precipPer3"></div>
+    </div>
+    
+  </div>
+  
+  
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
